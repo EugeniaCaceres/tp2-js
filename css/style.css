@@ -1,0 +1,8 @@
+table {
+  border: 6px solid rgb(255, 188, 210);
+}
+
+td {
+  border: 5px solid rgb(195, 249, 114);
+  padding: 8px;
+}
