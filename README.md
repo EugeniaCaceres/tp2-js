@@ -1,3 +1,4 @@
+
 # 2° Trabajo Práctico de JavaScript
 
 Realize los ejerciocio del segundo trabajo práctio de JavaScript de Rolling Code School, de la comisión 41i.
@@ -14,6 +15,7 @@ javasript
 
 ## Autores
 * María Eugenia Cáceres Herrera
+
 
 
 Hecho por María Eugenia Cáceres Herrera
