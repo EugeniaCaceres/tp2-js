@@ -2,16 +2,17 @@
 
 Ejercicios con Math*/
 
-let filas = parseInt(prompt("Ingresar N° de filas:"));
-let columnas = parseInt(prompt("Ingresar N° de columnas:"));
+let filas = parseInt(prompt("Ingrese N° de filas:"));
+let columnas = (prompt("Ingrese N° de columnas:"));
+let numeros = filas * columnas
 
-document.write("<table> <tbody>");
+document.write('<table><tbody>');
 
-for (let ifilas = 0; ifilas <= filas; ifilas = ifilas + 1) {
-  document.write("<tr>");
-  for (let icelda = 0; icelda <= columnas; icelda = icelda + 1) {
-    document.write("<td> </td>");
+for (let ifilas = 1; ifilas <= filas; ifilas = ifilas + 1) {
+  document.write('<tr>');
+  for (let icelda = 1; icelda <= columnas; icelda = icelda + 1) {
+    document.write('<td>', numeros ,  '</td>');
   }
-  document.write("</tr>");
+  document.write('</tr>');
 }
-document.write("</tbody> </table>");
+document.write('</tbody></table>');
